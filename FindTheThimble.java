@@ -1,7 +1,7 @@
 import java.util.Random;
 
 public class FindTheThimble {
-    // Literal values stored in final variables for easy maintenance [cite: 128]
+    // Literal values stored in final variables for easy maintenance 
     private static final int MIN_ROUNDS = 1;
     private static final int MAX_ROUNDS = 9;
     private static final int LEFT = 1;
@@ -11,8 +11,8 @@ public class FindTheThimble {
     //coding the game
     public static void playGame() {
         Random random = new Random();
-        int player1Score = 0; // [cite: 143]
-        int computerScore = 0; // [cite: 143]
+        int player1Score = 0; 
+        int computerScore = 0; 
 
         // game rules
         System.out.println("\n Welcome to the Find the Thimble Game");
