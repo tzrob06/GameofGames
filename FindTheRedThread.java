@@ -1,5 +1,5 @@
 import java.util.Random;
-/**
+/*
  * Handles the logic for the Find the Red Thread game.
  */
 public class FindtheRedThread {

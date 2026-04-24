@@ -1,4 +1,4 @@
-/**
+/*
  * Driver loop that displays the menu and controls the overall progress.
  */
 public class PlayGames {
@@ -30,16 +30,16 @@ public class PlayGames {
 
             switch (choice) {
                 case 1:
-                    System.out.println("Find the Thimble is under construction.");
+                    FindTheThimble.playGame();
                     break;
                 case 2:
-                    System.out.println("Coin Flip is under construction.");
+                    CoingFlip.playGame();
                     break;
                 case 3:
-                    System.out.println("Guess the Number is under construction.");
+                    GuessTheNumber.playGame();
                     break;
                 case 4:
-                    System.out.println("Even and Odd is under construction.");
+                    EvenOdd.playGame();
                     break;
                 case 5:
                     FindtheRedThread.playGame();
@@ -53,7 +53,7 @@ public class PlayGames {
     }
 
     /**
-     * Updates the global scoreboard after a game concludes.
+     * Updates the global scoreboard after each game concludes.
      */
     public static void updateScore(int winner) {
         gamesPlayed++;
@@ -70,7 +70,7 @@ public class PlayGames {
     }
 
     /**
-     * Displays final results upon exiting.
+     * Displays final scoreboard after the exiting the game loop
      */
     private static void displayFinalResults() {
         System.out.println("\n--- FINAL SCOREBOARD ---");
