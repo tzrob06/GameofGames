@@ -1,1 +1,1 @@
-yo wsg g
+	yo wsg g
