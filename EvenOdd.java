@@ -29,15 +29,12 @@ public class EvenOdd implements Game {
     @Override
     public boolean play() {
         while (true) {
-            System.out.println("\n========================================");
-            System.out.println("Welcome to the Even Odd Game!");
-            System.out.println("========================================");
+            System.out.println("\n");
+            System.out.println("Welcome to the Even Odd Game!\n");
             System.out.println("Rules: You will play best of an odd number of rounds (1-9).");
             System.out.println("You pick a number, computer picks a number (1-5).");
             System.out.println("You guess if the sum will be Even (E) or Odd (O).");
-            System.out.println("First to majority wins!");
-            System.out.println("========================================\n");
-            
+            System.out.println("First to majority wins!\n");
             
             int totalRounds = GetInput.getOddIntInput(
                 "Enter an odd number of rounds to play (1-9): ", MIN_ROUNDS, MAX_ROUNDS);
@@ -91,25 +88,21 @@ public class EvenOdd implements Game {
                 
                 // Check for overall winner
                 if (playerScore >= roundsNeededToWin) {
-                    System.out.println("\n========================================");
-                    System.out.println("CONGRATULATIONS! You won Even Odd!");
+                    System.out.println("\nCONGRATULATIONS! You won Even Odd!");
                     System.out.println("Final Score - You: " + playerScore + " | Computer: " + computerScore);
-                    System.out.println("========================================");
                     
                     char playAgain = GetInput.getYesNoInput(
                         "\nWould you like to play Even Odd again? (Y/N): ");
                     if (playAgain == 'Y') {
                         playerScore = 0;
                         computerScore = 0;
-                        round = 0;  // Will be incremented to 1 in loop
+                        round = 0; 
                         continue;
                     }
                     return true;
                 } else if (computerScore >= roundsNeededToWin) {
-                    System.out.println("\n========================================");
-                    System.out.println("Computer wins Even Odd!");
+                    System.out.println("\nComputer wins Even Odd!");
                     System.out.println("Final Score - You: " + playerScore + " | Computer: " + computerScore);
-                    System.out.println("========================================");
                     
                     char playAgain = GetInput.getYesNoInput(
                         "\nWould you like to play Even Odd again? (Y/N): ");
