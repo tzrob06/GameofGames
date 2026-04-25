@@ -22,6 +22,7 @@
   * **GuessTheNumber.java**: Contains the internal logic and loops for the "Guess the Number" game.
   * **EvenOdd.java**: Contains the internal logic and loops for the "Even and Odd" game.
   * **FindTheRedThread.java**: Contains the internal logic and loops for the "Find the Red Thread" game.
+** for eachh of the necessary classes a test class is included to verify all possible paths as according to group 4's testing document
 
 //still need to complete these
 -Documentation Files
