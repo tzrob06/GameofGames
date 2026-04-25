@@ -1,7 +1,5 @@
 import java.util.Random;
 
-
-//Guess the Number game
  public class GuessTheNumber {
     private static final int RANGE_GENERATION_MIN = 1;
     private static final int RANGE_GENERATION_MAX = 50;
