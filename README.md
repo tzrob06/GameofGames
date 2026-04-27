@@ -13,9 +13,6 @@
   * **Player Mode:** The standard player experience without any hidden information revealed.
   * **Test Mode:** A debugging mode that displays hidden information in advance of or during game play (e.g., showing the random hand the thimble is in,   or where the red thread is hidden). This mode allows the program to be verified efficiently without needing to play rounds repeatedly until specific     random conditions occur.
 
-## File Directory Definition
-  As per the implementation requirements, the following Java files and documentation are included in this repository. Each game has been separated into    its own distinct class.
-
 ## Core Classes
   * **PlayGames.java**: The main driver class of the program. It displays the main Game of Games menu, controls overall progression, tracks the global     user/computer scoreboard, and handles the toggle between Player and Test modes. It looks 
   * **GetInput.java**: A centralized utility class containing generic methods to prompt and retrieve user input. It ensures the program remains            resilient and gracefully handles user input errors (such as catching exception errors when text is entered instead of an integer).
