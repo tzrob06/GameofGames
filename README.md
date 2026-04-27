@@ -30,6 +30,7 @@
   * **Deployment_Document.pdf**: Details step-by-step directions on how the code can be accessed, downloaded, configured, and run.
   * **Responsibilities_Document.pdf**: Indicates which implementation team member was responsible for coding specific classes and managing external        documents.
   * **Meeting_Notes.pdf**: A compiled record of the implementation team's meetings and progress tracking.
+  * **UMLDiagrams.pdf**: The UML diagrams for each of the core and game classes
 
 ## How to Run
   Please refer to the Deployment_Document.pdf for detailed IDE configuration, compilation, and execution instructions.
