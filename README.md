@@ -4,9 +4,9 @@
   This project is Group 1's implementation of the "Game of Games", which is a terminal-based suite of mini-games written in Java. This implementation is   based on the design documents, use cases, and test suites provided by Group 4 (Valeria, Allan, David, and Erica).
 
 ## Instructional Docuemnts(Reference for how we implmented this project)
-  * GameOfGames1_ValeriaAllanDavidErica
-  * TestDesignAssignmnetDavidEricaAllanValeria
-  * The Game of Games - Implementation Time
+  * GameOfGames1_ValeriaAllanDavidErica.pdf
+  * TestDesignAssignmnetDavidEricaAllanValeria.pdf
+  * The Game of Games - Implementation Time.pdf
 
 ## Program Modes
   The program includes two variations of execution to facilitate both standard gameplay and debugging:
