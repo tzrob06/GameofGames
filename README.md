@@ -3,7 +3,7 @@
 ## Project Overview
   This project is Group 1's implementation of the "Game of Games", which is a terminal-based suite of mini-games written in Java. This implementation is   based on the design documents, use cases, and test suites provided by Group 4 (Valeria, Allan, David, and Erica).
 
-## Reference Docuemnts
+## Reference Documents
   * GameOfGames1_ValeriaAllanDavidErica.pdf
   * TestDesignAssignmnetDavidEricaAllanValeria.pdf
   * The Game of Games - Implementation Time.pdf
@@ -14,7 +14,7 @@
   * **Test Mode:** A debugging mode that displays hidden information in advance of or during game play (e.g., showing the random hand the thimble is in,   or where the red thread is hidden). This mode allows the program to be verified efficiently without needing to play rounds repeatedly until specific random conditions occur.
 
 ## Core Classes
-  * **PlayGames.java**: The main driver class of the program. It displays the main Game of Games menu, controls overall progression, tracks the global     user/computer scoreboard, and handles the toggle between Player and Test modes. It looks 
+  * **PlayGames.java**: The main driver class of the program. It displays the main Game of Games menu, controls overall progression, tracks the global     user/computer scoreboard, and handles the toggle between Player and Test modes.
   * **GetInput.java**: A centralized utility class containing generic methods to prompt and retrieve user input. It ensures the program remains            resilient and gracefully handles user input errors (such as catching exception errors when text is entered instead of an integer).
 
 ## Game Classes
