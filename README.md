@@ -29,11 +29,11 @@
 ## Documentation Files
   * **DeploymentDocument.pdf**: Details step-by-step directions on how the code can be accessed, downloaded, configured, and run.
   * **ResponsibilitiesDocument.pdf**: Indicates which implementation team member was responsible for coding specific classes and managing external documents.
-  * **MeetingNotes.pdf**: A compiled record of the implementation team's meetings and progress tracking.
+  * **GameOfGamesMeetingNotesJakeLiuThomasZoe.pdf**: A compiled record of the implementation team's meetings and progress tracking.
   * **UMLDiagrams.pdf**: The UML diagrams for each of the core and game classes
   * **MethodGlossary.pdf**: This table defines what each method does, what it takes in (parameters), and what it spits out (returns).
-  * **DataConfigurationTable.pdf**: This table breaks down how specific variables are stored and interacted with throughout a game.
-  * **UnitTestTable.pdf**: This table maps your code's automated tests back to the specific Sunny Day and Rainy Day paths from your design document.
+  * **DataConfigurationTable.md**: This table breaks down how specific variables are stored and interacted with throughout a game.
+  * **UnitTestTable.md**: This table maps your code's automated tests back to the specific Sunny Day and Rainy Day paths from your design document.
 
 
 ## How to Run
