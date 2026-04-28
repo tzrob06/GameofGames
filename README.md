@@ -5,7 +5,7 @@
 
 ## Reference Documents
   * GameOfGames1_ValeriaAllanDavidErica.pdf
-  * TestDesignAssignmnetDavidEricaAllanValeria.pdf
+  * TestDesignAssignmentDavidEricaAllanValeria.pdf
   * The Game of Games - Implementation Time.pdf
 
 ## Program Modes
