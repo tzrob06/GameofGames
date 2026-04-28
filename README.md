@@ -25,12 +25,12 @@
   * **FindTheRedThread.java**: Contains the internal logic for the "Find the Red Thread" game.
 
 ## Unit Tests(based on the test design document)
-  * **PlayGamesTest.java**: Tests the sunny/rainy day paths for the PlayGame.java file
-  * **FindTheThimbleTest.java**: Tests the sunny/rainy day paths for the FindTheThimble.java file
-  * **CoinFlipTest.java**: Tests the sunny/rainy day paths for the CoinFlip.java file
-  * **GuessTheNumberTest.java**: Tests the sunny/rainy day paths for the GuessTheNumber.java file
-  * **EvenOddTest.java**: Tests the sunny/rainy day paths for the EvenOdd.java file
-  * **FindTheRedThreadTest.java**: Tests the sunny/rainy day paths for the FindTheRedThread.java file
+  * **PlayGamesTest.java**: Tests the sunny/rainy day paths for the "PlayGame.java" file
+  * **FindTheThimbleTest.java**: Tests the sunny/rainy day paths for the "FindTheThimble.java" file
+  * **CoinFlipTest.java**: Tests the sunny/rainy day paths for the "CoinFlip.java" file
+  * **GuessTheNumberTest.java**: Tests the sunny/rainy day paths for the "GuessTheNumber.java" file
+  * **EvenOddTest.java**: Tests the sunny/rainy day paths for the "EvenOdd.java" file
+  * **FindTheRedThreadTest.java**: Tests the sunny/rainy day paths for the "FindTheRedThread.java" file
 
 ## Documentation Files
   * **DeploymentDocument.pdf**: Details step-by-step directions on how the code can be accessed, downloaded, configured, and run.
