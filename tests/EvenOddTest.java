@@ -5,7 +5,7 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.PrintStream;
 
-public class GuessTheNumberTest {
+public class EvenOddTest {
     
     private ByteArrayOutputStream testOutput;
     
@@ -24,34 +24,34 @@ public class GuessTheNumberTest {
     }
     
     @Test
-    public void testValidGuessWithinRange() {
-        setInput("5\nN\n");
-        GuessTheNumber.playGame();
+    public void testValidOddRoundsInput() {
+        setInput("5\n5\nE\nN\n");
+        EvenOdd.playGame();
         String output = testOutput.toString();
-        assertTrue(output.contains("Welcome to the Guess the Number Game!"));
+        assertTrue(output.contains("Playing best of 5 rounds"));
     }
     
     @Test
-    public void testInvalidGuessOutOfRange() {
-        setInput("0\n5\nN\n");
-        GuessTheNumber.playGame();
+    public void testInvalidEvenRoundsInput() {
+        setInput("4\n5\n5\nE\nN\n");
+        EvenOdd.playGame();
         String output = testOutput.toString();
         assertTrue(output.contains("Invalid menu choice"));
     }
     
     @Test
-    public void testWinMessageDisplayed() {
-        setInput("5\nN\n");
-        GuessTheNumber.playGame();
+    public void testInvalidRoundsOutOfRange() {
+        setInput("0\n5\n5\nE\nN\n");
+        EvenOdd.playGame();
         String output = testOutput.toString();
-        assertTrue(output.contains("Correct!") || output.contains("You Won!") || output.contains("Out of guesses!"));
+        assertTrue(output.contains("Invalid menu choice"));
     }
     
     @Test
-    public void testTestModeShowsHiddenInfo() {
-        setInput("5\nN\n");
-        GuessTheNumber.playGame();
+    public void testInvalidGuessInput() {
+        setInput("5\n5\nW\nE\nN\n");
+        EvenOdd.playGame();
         String output = testOutput.toString();
-        assertTrue(output.contains("[TEST MODE] Correct number:"));
+        assertTrue(output.contains("Invalid choice"));
     }
 }
