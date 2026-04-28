@@ -24,7 +24,7 @@
   * **EvenOdd.java**: Contains the internal logic and loops for the "Even and Odd" game.
   * **FindTheRedThread.java**: Contains the internal logic and loops for the "Find the Red Thread" game.
 
-** for each of the necessary classes a test class is included to verify all possible paths as according to group 4's testing document
+** for each of the necessary classes a test class is included to verify all possible paths as according to group 4's testing document **
 
 ## Documentation Files
   * **DeploymentDocument.pdf**: Details step-by-step directions on how the code can be accessed, downloaded, configured, and run.
