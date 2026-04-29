@@ -12,10 +12,18 @@
 | 6 | CoinFlip/testOddNumberValidation | Verify even numbers 2,4,6,8 are invalid | Loop through invalidEvenNumbers array, assertTrue(num % 2 == 0) | Even numbers identified as even | Even numbers correctly identified | X | |
 | 7 | CoinFlip/testPlayGameRuns | Verify playGame method executes without crashing | Call assertDoesNotThrow(() -> CoinFlip.playGame()) | No exception thrown | No exception thrown | X | |
 
-## FindTheTimbleTest
+## FindTheThimbleTest
 
 | Run # | Class/Method | Purpose | Test Steps | Expected Result | Actual Result | Passed | Failed |
 |-------|--------------|---------|------------|-----------------|---------------|--------|--------|
+| 1 | FindTheThimble/testRoundRangeConstants | Verify MIN_ROUNDS constant is 1 | Call assertEquals(1, FindTheThimble.MIN_ROUNDS) | MIN_ROUNDS equals 1 | MIN_ROUNDS equals 1 | X | |
+| 2 | FindTheThimble/testRoundRangeConstants | Verify MAX_ROUNDS constant is 9 | Call assertEquals(9, FindTheThimble.MAX_ROUNDS) | MAX_ROUNDS equals 9 | MAX_ROUNDS equals 9 | X | |
+| 3 | FindTheThimble/testHandConstants | Verify LEFT constant is 1 | Call assertEquals(1, FindTheThimble.LEFT) | LEFT equals 1 | LEFT equals 1 | X | |
+| 4 | FindTheThimble/testHandConstants | Verify RIGHT constant is 2 | Call assertEquals(2, FindTheThimble.RIGHT) | RIGHT equals 2 | RIGHT equals 2 | X | |
+| 5 | FindTheThimble/testHandConstants | Verify GUESS_OPTIONS array contains L and R | Call assertArrayEquals(new char[]{'L', 'R'}, FindTheThimble.GUESS_OPTIONS) | GUESS_OPTIONS equals {'L','R'} | GUESS_OPTIONS equals {'L','R'} | X | |
+| 6 | FindTheThimble/testOddNumberValidation | Verify odd numbers 1,3,5,7,9 are valid | Loop through validOdds array, assertTrue for each | All odd numbers return true | All odd numbers returned true | X | |
+| 7 | FindTheThimble/testOddNumberValidation | Verify even numbers 2,4,6,8 are invalid | Loop through invalidEvens array, assertFalse for each | Even numbers return false | Even numbers returned false | X | |
+| 8 | FindTheThimble/testPlayGameRuns | Verify class is instantiable | Call assertNotNull(new FindTheThimble()) | Object created successfully | Object created successfully | X | |
 | 1 | ... | ... | ... | ... | ... | ... | ... |
 ## EvenOddTest
 
