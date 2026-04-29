@@ -40,6 +40,7 @@
   * **MethodGlossary.pdf**: This table defines what each method does, what it takes in (parameters), and what it spits out (returns).
   * **DataConfigurationTable.md**: This table breaks down how specific variables are stored and interacted with throughout a game.
   * **UnitTestTable.md**: This table maps your code's automated tests back to the specific Sunny Day and Rainy Day paths from your design document.
+  * **GanttChart.pdf**: This contains the gantt chart for a project, showing the timeline of each task
 
 
 ## How to Run
