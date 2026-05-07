@@ -10,7 +10,7 @@ public class FindTheRedThread {
         boolean playAgain = true;
         Random rand = new Random();
 
-        final int TOTAL_SPOOLS = 50;
+        final int TOTAL_SPOOLS = 20;
 
         while (playAgain) {
             int remainingSpools = TOTAL_SPOOLS;
