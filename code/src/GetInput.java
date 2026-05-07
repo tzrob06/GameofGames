@@ -3,7 +3,6 @@ import java.util.Scanner;
 public class GetInput {
     private static final Scanner SCANNER = new Scanner(System.in);
     
-    // Changed from getIntInput to getIntInRange to match your games
     public static int getIntInRange(String prompt, int min, int max) {
         while (true) {
             System.out.print(prompt);
@@ -36,7 +35,6 @@ public class GetInput {
         }
     }
 
-    // Added this method because your games expect to receive a String "Y" or "N"
     public static String getStringOptions(String prompt, String option1, String option2) {
         while (true) {
             System.out.print(prompt);
