@@ -33,7 +33,7 @@ public class PlayGames {
                     FindTheThimble.playGame();
                     break;
                 case 2:
-                    CoingFlip.playGame();
+                    CoinFlip.playGame(); // Fixed typo: CoingFlip -> CoinFlip
                     break;
                 case 3:
                     GuessTheNumber.playGame();
@@ -42,7 +42,7 @@ public class PlayGames {
                     EvenOdd.playGame();
                     break;
                 case 5:
-                    FindtheRedThread.playGame();
+                    FindTheRedThread.playGame(); // Fixed typo: FindtheRedThread -> FindTheRedThread
                     break;
                 case 6:
                     displayFinalResults();
